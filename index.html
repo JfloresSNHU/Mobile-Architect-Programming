@@ -1,17 +1,193 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Code Review - Weight Trackit</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Capstone ePortfolio – Weight Trackit</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: "Segoe UI", sans-serif;
+      margin: 0;
+      background-color: #f4f6f8;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background-color: #0056b3;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #0056b3;
+    }
+
+    /* Section Layout */
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+      padding: 2rem;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    h2 {
+      color: #0056b3;
+      margin-top: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 0.75rem 0;
+    }
+
+    a {
+      color: #0056b3;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .video-button {
+      display: inline-block;
+      background-color: #ff0000;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 6px;
+      font-size: 1rem;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .video-button:hover {
+      background-color: #cc0000;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+      padding: 2rem 1rem;
+    }
+  </style>
 </head>
 <body>
-  <h1>Weight Trackit - Code Review</h1>
-  <p>This video is a 20-minute walkthrough and code review of the Weight Trackit mobile application.Describing planned enhancements and full porting from Android to iOS mobile operating system.</p>
 
-<p>
-  <a href="https://youtu.be/ggnlclf0ow8" target="_blank">
-    ▶️ Watch the Code Review Video on YouTube
-  </a>
-</p>
+  <!-- Navigation Tabs -->
+  <nav>
+    <a href="#video">Code Review</a>
+    <a href="#assessment">Self-Assessment</a>
+    <a href="#narratives">Narratives</a>
+    <a href="#artifacts">Artifacts</a>
+    <a href="#portfolio">Portfolio Link</a>
+  </nav>
+
+  <!-- Page Header -->
+  <header>
+    <h1>Capstone ePortfolio – Weight Trackit</h1>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Code Review Video -->
+    <section id="video">
+      <h2>📹 Code Review Video</h2>
+      <p>This 20-minute video explains the architecture and technical decision-making for the Weight Trackit app.</p>
+      <p>
+        <a href="https://youtu.be/ggnlclf0ow8" class="video-button" target="_blank">
+          ▶️ Watch Code Review Video
+        </a>
+      </p>
+    </section>
+
+    <!-- Professional Self-Assessment -->
+    <section id="assessment">
+      <h2>🧠 Professional Self-Assessment</h2>
+      <ul>
+        <li>
+          <a href="files/Professional_Self_Assessment.docx" target="_blank">
+            Download Professional Self-Assessment (Word)
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Milestone Narratives -->
+    <section id="narratives">
+      <h2>📘 Milestone Narratives</h2>
+      <ul>
+        <li><a href="files/Milestone_One_Narrative.docx" target="_blank">Milestone One Narrative</a></li>
+        <li><a href="files/Milestone_Two_Narrative.docx" target="_blank">Milestone Two Narrative</a></li>
+        <li><a href="files/Milestone_Three_Narrative.docx" target="_blank">Milestone Three Narrative</a></li>
+        <li><a href="files/Capstone_Narrative.docx" target="_blank">Final Capstone Narrative</a></li>
+      </ul>
+    </section>
+
+    <!-- Technical Artifacts -->
+    <section id="artifacts">
+      <h2>💻 Technical Artifacts</h2>
+      <ul>
+        <li><a href="https://github.com/JfloresSNHU/Mobile-Architect-Programming" target="_blank">GitHub Repository – Project Source Code</a></li>
+        <li><a href="files/Original_Artifact.zip" target="_blank">Download Original Code (ZIP)</a></li>
+        <li><a href="files/Enhanced_Artifact.zip" target="_blank">Download Enhanced Code (ZIP)</a></li>
+      </ul>
+    </section>
+
+    <!-- Portfolio URL -->
+    <section id="portfolio">
+      <h2>🌐 GitHub Pages Portfolio</h2>
+      <ul>
+        <li><a href="https://jfloressnhu.github.io/Mobile-Architect-Programming/" target="_blank">Visit Live ePortfolio Website</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 JfloresSNHU | SNHU Capstone – Mobile Architect Programming
+  </footer>
+
 </body>
 </html>
